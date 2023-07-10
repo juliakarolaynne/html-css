@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat illum excepturi quibusdam dolores magni maiores, cum, tempora tenetur nihil ab laboriosam architecto possimus placeat repellendus ut itaque quaerat molestias atque.</p>
+
+    <ul>
+        <li><a href="iframe001.html" target="iframe">Primeira página</a></li>
+        <li><a href="pag002.html" target="iframe">Segunda página</a></li>
+        <li><a href="pag003.html" target="iframe">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem autem fugit impedit eaque vero ducimus laudantium minima sapiente ab sint corporis at dolorem vitae, nostrum similique quisquam nihil id quia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique illum hic libero amet obcaecati, quod unde error nam adipisci consequuntur earum deleniti natus autem. Nulla assumenda possimus inventore vel temporibus?</p>
+    
+    <iframe id="tela" name="iframe" srcdoc="<h1>escolha uma das opcões acima</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat illum excepturi quibusdam dolores magni maiores, cum, tempora tenetur nihil ab laboriosam architecto possimus placeat repellendus ut itaque quaerat molestias atque.</p>
+        
+        <img src='dan-droids-pq.png'>
+        ">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime perferendis itaque consequuntur doloribus quo sapiente, provident ex eos, nam soluta animi magni facere quas minus expedita nulla sed molestiae?</p>
+</body>
+</html>
