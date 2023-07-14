@@ -38,11 +38,14 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.477);
+
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82;
+    background: #5f2c82 url(../imagem/pexels-matheus-souza-3693599\ \(1\).jpg);
     background-size: cover;
     background-position: left bottom;
     height: 200px;
@@ -51,4 +54,13 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
