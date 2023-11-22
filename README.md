@@ -1,5 +1,4 @@
 # html-css
- Curso de HTML5 e CSS3 do CursoemVideo
 
 Projeto android
 > <h4>Link - https://juliakarolaynne.github.io/html-css/exercicios/Modulo%202/d010/android.html</h4>
